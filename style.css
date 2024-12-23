@@ -22,10 +22,21 @@ h4 {
 }
 
 #window {
-    width: 250px;
-    height:  200px;
-    margin: 10px;
+    background-image: url('imgs/window.png');
+    background-size: cover;
+    background-position: center;
+    width: 280px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+#landscape {
+    margin-top: 111px;
+    width: 135px;
+    height: 128px;
     background-color: white;
+    border-radius: 2px;
 }
 
 #btns {
@@ -37,7 +48,7 @@ h4 {
 }
 
 button {
-    font-size: 15px;
+    font-size: 13px;
     font-weight: bold;
     color: white;
     border: 5px;
@@ -46,8 +57,9 @@ button {
     background-color: rgba(255, 255, 255, 0);
 }
 
-button:active {
+button:hover {
     border-radius: 5px;
+    border: 1px solid black;
     color: black;
     background-color: white;
     transform: scale(0.88);
