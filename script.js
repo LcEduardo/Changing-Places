@@ -9,7 +9,7 @@ btns.forEach(btn => {
         imgElement.style.borderRadius = 10;
         imgElement.width = 135;
         imgElement.height = 128;
-        if (btn.dataset.set === "praia") {
+        if (btn.dataset.set === "beach") {
             imgElement.src = 'imgs/beach.jpg';
             win.appendChild(imgElement);
         } 
